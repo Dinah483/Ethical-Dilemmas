@@ -1,0 +1,184 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dfe0df;
+  height: auto;
+  overflow: auto;
+}
+
+.landing-page .hero-section {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.landing-page .hero-section .image-div {
+  padding: 2rem;
+  border-radius: 4rem;
+  background-color: #fffdfd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40%;
+  transition: width 0.4s ease-in-out;
+}
+.landing-page .hero-section .image-div:hover {
+  width: 40.2%;
+}
+.landing-page .hero-section .product-description {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.landing-page .hero-section .product-description h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+  color:rgb(51, 49, 49);
+}
+
+.landing-page .hero-section .product-description p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #b0a7a7 0%, /* Silver */
+  #FFFFFF 29%, /* White */
+  #007bff 67%, /* Blue */
+  #FFFFFF 100% /* White */
+  
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+.landing-page .product-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #fffdfd;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+}
+
+.image-container {
+  flex: 1 1 calc(25% - 2rem); /* Flex item takes up 25% of the width minus gap */
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1rem; /* Adds margin around each container */
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 80%; /* Image takes up full container width */
+  max-width: 300px; /* Sets a maximum width to avoid overly large images */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.image-container p {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer-left h2,
+.footer-right h3 {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0.5rem 0;
+}
+
+.footer-links a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
