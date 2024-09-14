@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dinah483/my-product.git/static/css/main.8c16823d.css",
+    "main.js": "/Dinah483/my-product.git/static/js/main.72e27498.js",
+    "static/js/453.4a3df627.chunk.js": "/Dinah483/my-product.git/static/js/453.4a3df627.chunk.js",
+    "static/media/productSilver.png": "/Dinah483/my-product.git/static/media/productSilver.9db592fdaab54389f425.png",
+    "static/media/productBlue.png": "/Dinah483/my-product.git/static/media/productBlue.53c888502bdcf2894cba.png",
+    "static/media/productBlack.png": "/Dinah483/my-product.git/static/media/productBlack.dfc87bdce1c835487994.png",
+    "static/media/productWhite.png": "/Dinah483/my-product.git/static/media/productWhite.83fcaacd3cc6fc5c8822.png",
+    "static/media/headphones.png": "/Dinah483/my-product.git/static/media/headphones.499a4f81f65e80f7948d.png",
+    "index.html": "/Dinah483/my-product.git/index.html",
+    "main.8c16823d.css.map": "/Dinah483/my-product.git/static/css/main.8c16823d.css.map",
+    "main.72e27498.js.map": "/Dinah483/my-product.git/static/js/main.72e27498.js.map",
+    "453.4a3df627.chunk.js.map": "/Dinah483/my-product.git/static/js/453.4a3df627.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c16823d.css",
+    "static/js/main.72e27498.js"
+  ]
+}
