@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-product/static/css/main.8c16823d.css",
-    "main.js": "/my-product/static/js/main.bacc7cf2.js",
-    "static/js/453.4a3df627.chunk.js": "/my-product/static/js/453.4a3df627.chunk.js",
-    "static/media/productSilver.png": "/my-product/static/media/productSilver.9db592fdaab54389f425.png",
-    "static/media/productBlue.png": "/my-product/static/media/productBlue.53c888502bdcf2894cba.png",
-    "static/media/productBlack.png": "/my-product/static/media/productBlack.dfc87bdce1c835487994.png",
-    "static/media/productWhite.png": "/my-product/static/media/productWhite.83fcaacd3cc6fc5c8822.png",
-    "static/media/headphones.png": "/my-product/static/media/headphones.499a4f81f65e80f7948d.png",
-    "index.html": "/my-product/index.html",
-    "main.8c16823d.css.map": "/my-product/static/css/main.8c16823d.css.map",
-    "main.bacc7cf2.js.map": "/my-product/static/js/main.bacc7cf2.js.map",
-    "453.4a3df627.chunk.js.map": "/my-product/static/js/453.4a3df627.chunk.js.map"
+    "main.css": "/Ethical-Dilemmas/static/css/main.720f75d4.css",
+    "main.js": "/Ethical-Dilemmas/static/js/main.a67a7929.js",
+    "static/js/453.4a3df627.chunk.js": "/Ethical-Dilemmas/static/js/453.4a3df627.chunk.js",
+    "static/media/ethical_dilemas.jpeg": "/Ethical-Dilemmas/static/media/ethical_dilemas.97404b96948ecd56ea0b.jpeg",
+    "static/media/dice.jpg": "/Ethical-Dilemmas/static/media/dice.c79f590dc14ec104ec82.jpg",
+    "static/media/board_games.jpeg": "/Ethical-Dilemmas/static/media/board_games.bcbfedaad285d00b22d6.jpeg",
+    "static/media/home_page.jpeg": "/Ethical-Dilemmas/static/media/home_page.a3f5d1a1a9f090897225.jpeg",
+    "static/media/card_games.jpeg": "/Ethical-Dilemmas/static/media/card_games.91fe19859460cf4d600c.jpeg",
+    "static/media/tik-tok.png": "/Ethical-Dilemmas/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
+    "index.html": "/Ethical-Dilemmas/index.html",
+    "main.720f75d4.css.map": "/Ethical-Dilemmas/static/css/main.720f75d4.css.map",
+    "main.a67a7929.js.map": "/Ethical-Dilemmas/static/js/main.a67a7929.js.map",
+    "453.4a3df627.chunk.js.map": "/Ethical-Dilemmas/static/js/453.4a3df627.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c16823d.css",
-    "static/js/main.bacc7cf2.js"
+    "static/css/main.720f75d4.css",
+    "static/js/main.a67a7929.js"
   ]
 }
