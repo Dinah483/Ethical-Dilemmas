@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ethical-Dilemmas/static/css/main.328731f7.css",
-    "main.js": "/Ethical-Dilemmas/static/js/main.cda531e0.js",
+    "main.js": "/Ethical-Dilemmas/static/js/main.ab6fd1af.js",
     "static/js/453.4a3df627.chunk.js": "/Ethical-Dilemmas/static/js/453.4a3df627.chunk.js",
     "static/media/ethical_dilemas.jpeg": "/Ethical-Dilemmas/static/media/ethical_dilemas.97404b96948ecd56ea0b.jpeg",
     "static/media/dice.jpg": "/Ethical-Dilemmas/static/media/dice.c79f590dc14ec104ec82.jpg",
@@ -13,11 +13,11 @@
     "static/media/tik-tok.png": "/Ethical-Dilemmas/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
     "index.html": "/Ethical-Dilemmas/index.html",
     "main.328731f7.css.map": "/Ethical-Dilemmas/static/css/main.328731f7.css.map",
-    "main.cda531e0.js.map": "/Ethical-Dilemmas/static/js/main.cda531e0.js.map",
+    "main.ab6fd1af.js.map": "/Ethical-Dilemmas/static/js/main.ab6fd1af.js.map",
     "453.4a3df627.chunk.js.map": "/Ethical-Dilemmas/static/js/453.4a3df627.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.328731f7.css",
-    "static/js/main.cda531e0.js"
+    "static/js/main.ab6fd1af.js"
   ]
 }
