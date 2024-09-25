@@ -119,7 +119,7 @@
 .team-member img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit:cover;
   border-radius: 50%;
   margin-bottom: 1rem;
   border: 4px solid #007bff;

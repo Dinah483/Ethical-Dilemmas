@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
 import boardGames from "./../product/product-images/board_games.jpeg";
 import ethicalDilemas from "./../product/product-images/ethical_dilemas.jpeg";
 import cardGames from "./../product/product-images/card_games.jpeg";
 import dice from "./../product/product-images/dice.jpg";
-
+import Edward from "./../product/authors/EdwardMumbuu.jpeg";
+import Matty from "./../product/authors/MattyKaminzi.jpeg";
+import { useNavigate } from 'react-router-dom';
 interface TeamMember {
   name: string;
   role: string;
@@ -12,12 +14,15 @@ interface TeamMember {
 }
 
 const teamMembers: TeamMember[] = [
-  { name: 'John Doe', role: 'Founder & CEO', imageUrl: boardGames },
-  { name: 'Jane Smith', role: 'Chief Technology Officer', imageUrl: ethicalDilemas },
-  { name: 'Emily Davis', role: 'Lead Product Designer', imageUrl: cardGames }
+  { name: 'Matty Kaminzi', role: 'Founder & CEO', imageUrl: Matty },
+  { name: 'Edward Mumbuu', role: 'Chief Technology Officer', imageUrl: Edward },
 ];
 
 const AboutPage: React.FC = () => {
+  const navigate = useNavigate();
+useEffect(() => {
+  navigate('/Ethical-Dilemmas/about');
+}, [navigate]);
   return (
     <div className="about-us">
       <header className="hero" style={{ backgroundImage: `url(${dice})` }}>
@@ -32,43 +37,18 @@ const AboutPage: React.FC = () => {
           <div className="mission">
             <h2>Our Mission</h2>
             <p>
-              At GameMasters, our mission is to create groundbreaking games that bring people together and spark joy. 
-              We are dedicated to providing the highest quality gaming experiences, combining innovative mechanics with captivating designs.
+            To provide a fun and engaging way for individuals to learn and understand the principles of ethical journalism in the digital age.
             </p>
           </div>
           <div className="vision">
             <h2>Our Vision</h2>
             <p>
-              To revolutionize how people experience games, whether it's board games, card games, or dice games. We envision a world where everyone can enjoy high-quality gaming without limits,
-              powered by our innovations in game design and technology.
+            To become a leading resource for education and awareness about media ethics in the digital age, empowering individuals to make informed choices and contribute to a more ethical media landscape.
             </p>
           </div>
         </section>
 
-        <section className="section values">
-          <h2>What We Value</h2>
-          <div className="values-list">
-            <div className="value-item">
-              <h3>Innovation</h3>
-              <p>
-                We are constantly pushing the boundaries of what's possible in game design, ensuring our products lead the way in creativity and fun.
-              </p>
-            </div>
-            <div className="value-item">
-              <h3>Player Experience</h3>
-              <p>
-                Your enjoyment is our priority. From game mechanics to packaging, we aim to provide an exceptional experience.
-              </p>
-            </div>
-            <div className="value-item">
-              <h3>Sustainability</h3>
-              <p>
-                We're committed to creating games that last and reduce environmental impact. We incorporate eco-friendly practices in all stages of production.
-              </p>
-            </div>
-          </div>
-        </section>
-
+        {/* make two people */}
         <section className="section team">
           <h2>Meet Our Team</h2>
           <div className="team-grid">

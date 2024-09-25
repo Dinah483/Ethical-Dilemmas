@@ -17,10 +17,9 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Layout />} />
-        <Route path="/home" element={<LandingPage/>} />
-        <Route path="/about" element={<AboutPage />} />
-        {/* Add more routes here */}
+        <Route path="/Ethical-Dilemmas" element={<LandingPage  />} />
+        <Route path="/Ethical-Dilemmas/home" element={<LandingPage/>} />
+        <Route path="/Ethical-Dilemmas/about" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );

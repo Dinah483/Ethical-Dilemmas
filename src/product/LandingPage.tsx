@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import boardGames from "./product-images/board_games.jpeg";
 import homePage from "./product-images/home_page.jpeg";
 import ethicalDilemas from "./product-images/ethical_dilemas.jpeg";
@@ -8,13 +8,14 @@ import './LandingPage.css';
 import { Button, IconButton } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos, Facebook, Instagram } from '@mui/icons-material';
 import TikTok from "./../tik-tok.png";
+import { useNavigate } from 'react-router-dom';
 const LandingPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const products = [
-    { image: boardGames, alt: "Board Games", name: "Crystal White" },
-    { image: ethicalDilemas, alt: "Card Games", name: "Midnight Black" },
-    { image: cardGames, alt: "Card Games", name: "Sterling Silver" },
-    { image: dice, alt: "Board Games", name: "Ocean Blue" },
+    { image: boardGames, alt: "Board Games", name: "Truthfulness" },
+    { image: ethicalDilemas, alt: "Card Games", name: "Fairness" },
+    { image: cardGames, alt: "Card Games", name: "Accountability" },
+    { image: dice, alt: "Board Games", name: "Transparency" },
   ];
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
@@ -27,22 +28,26 @@ const LandingPage = () => {
       (prevIndex - 2 < 0) ? (products.length - 2) : prevIndex - 2
     );
   };
-
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate('/Ethical-Dilemmas/home');
+  }, [navigate]);
   return (
     <div className="landing-page">
       <div className="hero-section">
+      <div className="hero-image">
+          <img src={homePage} alt="Premium Headphones" />
+        </div>
         <div className="hero-content">
-          <h1 className="animate-charcter">Rock and a Hard Place</h1>
-          <p>Immerse yourself in pure audio with our premium headphones.</p>
-          <p>Experience superior sound quality and active noise cancellation for uninterrupted listening.</p>
+          <h1 className="animate-charcter">Media Ethics in the Digital error</h1>
+          <p>In a world of endless information, </p>
+          <p>Ethical journalism is more important than ever.</p>
           <Button variant="contained" color="primary" size="large"
             sx={{ marginTop: '1rem', backgroundColor: '#61dafb', '&:hover': { backgroundColor: '#21a1c4' } }}>
             Explore Now
           </Button>
         </div>
-        <div className="hero-image">
-          <img src={homePage} alt="Premium Headphones" />
-        </div>
+        
       </div>
 
       <div className="product-gallery">
@@ -74,14 +79,14 @@ const LandingPage = () => {
       <footer className="footer" style={{backgroundColor:"#8087F3"}}>
         <div className="footer-content">
           <div className="footer-section">
-            <h2>EthicalDilemas</h2>
-            <p>&copy; {new Date().getFullYear()}EthicalDilemas</p>
+            <h2>Ethical Dilemmas</h2>
+            <p>&copy; {new Date().getFullYear()}Ethical Dilemmas</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul className="footer-links">
-              <li><a href="/home">Home</a></li>
-              <li><a href="/about">About Us</a></li>
+              <li><a href="/Ethical-Dilemmas/home" style={{color:"white"}}>Home</a></li>
+              <li><a href="/Ethical-Dilemmas/about" style={{color:"white"}}>About Us</a></li>
             </ul>
           </div>
           <div className="footer-section">

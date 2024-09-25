@@ -25,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:2rem;
 }
 
 .hero-image img {
@@ -189,7 +190,17 @@
 .social-icons a:hover {
   color: #007bff;
 }
-
+.hero-image {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+}
+.hero-section{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
 .tiktok-icon {
   width: 24px;
   height: 24px;
@@ -220,7 +231,13 @@
   .hero-content, .hero-image {
     max-width: 100%;
   }
-
+  .hero-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+  }
   .animate-charcter {
     font-size: 2rem;
   }
